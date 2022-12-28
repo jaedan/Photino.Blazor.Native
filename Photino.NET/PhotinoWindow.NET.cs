@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Drawing;
 using System.IO;
 using System.Linq;
@@ -813,7 +814,8 @@ public partial class PhotinoWindow
         //This only has to be done once
         if (_nativeType == IntPtr.Zero)
         {
-            _nativeType = Marshal.GetHINSTANCE(typeof(PhotinoWindow).Module);
+            using Process process = Process.GetCurrentProcess();
+            _nativeType = process.Handle;
             if (IsWindowsPlatform)
                 Invoke(() => Photino_register_win32(_nativeType));
             else if (IsMacOsPlatform)
