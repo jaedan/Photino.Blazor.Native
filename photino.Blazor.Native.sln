@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32104.313
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Photino.Blazor", "Photino.Blazor\Photino.Blazor.csproj", "{446CE57D-DA5A-45CE-8FC2-D23821AC39DC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Photino.NET", "Photino.NET\Photino.NET.csproj", "{315AA302-67C1-4467-8997-339CE3DFC52D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Photino.Blazor.Sample", "Photino.Blazor.Sample\Photino.Blazor.Sample.csproj", "{367E7991-4EA0-4E0D-BA14-754361D69BE8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{446CE57D-DA5A-45CE-8FC2-D23821AC39DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{446CE57D-DA5A-45CE-8FC2-D23821AC39DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{446CE57D-DA5A-45CE-8FC2-D23821AC39DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{446CE57D-DA5A-45CE-8FC2-D23821AC39DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{315AA302-67C1-4467-8997-339CE3DFC52D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{315AA302-67C1-4467-8997-339CE3DFC52D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{315AA302-67C1-4467-8997-339CE3DFC52D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{315AA302-67C1-4467-8997-339CE3DFC52D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{367E7991-4EA0-4E0D-BA14-754361D69BE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{367E7991-4EA0-4E0D-BA14-754361D69BE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{367E7991-4EA0-4E0D-BA14-754361D69BE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{367E7991-4EA0-4E0D-BA14-754361D69BE8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
